@@ -19,8 +19,7 @@
  * Service definition for ServiceConsumerManagement (v1).
  *
  * <p>
- * Provides management methods for configuring service producer resources on
- * Google Cloud.</p>
+ * Manages the service consumers of a Service Infrastructure service.</p>
  *
  * <p>
  * For more information about this service, see the API

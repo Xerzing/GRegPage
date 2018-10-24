@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit588455e28683ef0a3afbf48267307784
+class ComposerStaticInit136b171f0fba7bb1d657bce54a23a243
 {
     public static $files = array (
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
@@ -34,6 +34,7 @@ class ComposerStaticInit588455e28683ef0a3afbf48267307784
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Google\\Auth\\' => 12,
+            'GRegPage\\' => 9,
         ),
         'F' => 
         array (
@@ -78,6 +79,10 @@ class ComposerStaticInit588455e28683ef0a3afbf48267307784
         array (
             0 => __DIR__ . '/..' . '/google/auth/src',
         ),
+        'GRegPage\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/inc',
+        ),
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
@@ -106,10 +111,10 @@ class ComposerStaticInit588455e28683ef0a3afbf48267307784
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit588455e28683ef0a3afbf48267307784::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit588455e28683ef0a3afbf48267307784::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit588455e28683ef0a3afbf48267307784::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit588455e28683ef0a3afbf48267307784::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit136b171f0fba7bb1d657bce54a23a243::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit136b171f0fba7bb1d657bce54a23a243::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit136b171f0fba7bb1d657bce54a23a243::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit136b171f0fba7bb1d657bce54a23a243::$classMap;
 
         }, null, ClassLoader::class);
     }
